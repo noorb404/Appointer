@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickServiceActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#000000">
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="30sp"
+            android:textColor="#ffff"
+            android:fontFamily="@font/acme"
+            android:textSize="25sp"
+            android:text="PICK SERVICE"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:layout_width="320.03dp"
+            android:layout_height="3sp"
+            android:background="@drawable/whoareu"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="35dp"/>
+
+        <Button
+            android:id="@+id/womenservice"
+            android:text="WOMEN Service"
+            android:fontFamily="@font/acme"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:layout_width="250dp"
+            android:layout_height="52dp"
+            android:background="@drawable/pibutton"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="80dp"/>
+        <Button
+            android:id="@+id/menservice"
+            android:text="MEN Service"
+            android:fontFamily="@font/acme"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:layout_width="250dp"
+            android:layout_height="52dp"
+            android:background="@drawable/pibutton"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="80dp"/>
+        <Button
+            android:id="@+id/bothservice"
+            android:text="both Service"
+            android:fontFamily="@font/acme"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:layout_width="250dp"
+            android:layout_height="52dp"
+            android:background="@drawable/pibutton"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:layout_width="174sp"
+            android:layout_height="34sp"
+            android:background="@drawable/blacklogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"
+            />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

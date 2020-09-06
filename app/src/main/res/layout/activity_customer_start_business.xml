@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentsActivty">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#000">
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sadimog"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:textColor="#7C7C7C"
+            android:text="You don't have any current business
+       but you can start your's NOW!"
+            android:textSize="15sp"
+            android:fontFamily="@font/bree_serif"/>
+        <Button
+            android:id="@+id/startbusiness"
+            android:layout_width="236dp"
+            android:layout_height="47dp"
+            android:background="@drawable/pbutton"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:id="@+id/profilebtn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grayprofile"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="305dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssim"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="220dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/searchbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/appbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="60dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

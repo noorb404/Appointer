@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AppointerActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="51dp"
+            android:background="@drawable/appointerl" />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="8dp"
+            android:background="@drawable/halfstar"
+            android:layout_gravity="center"
+            android:layout_marginBottom="270dp"/>
+        <Button
+            android:id="@+id/seachbtnt"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/searchtop"
+            android:layout_marginLeft="365dp"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="14dp"
+            android:layout_height="20dp"
+            android:background="@drawable/light"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:text=" CURRENT LOCATION"
+            android:textColor="#ffffff"
+            android:textSize="8dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="85sp"
+            android:layout_height="15sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="245dp"
+            />
+        <TextView
+            android:text="  TOP RATED"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="66sp"
+            android:layout_height="13sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="260dp"/>
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="7dp"
+            android:background="@drawable/blackline"
+            android:layout_marginTop="350dp"/>
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="8dp"
+            android:background="@drawable/halfstar"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:text="FAVORITS"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="66sp"
+            android:layout_height="13sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="45dp"/>
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:id="@+id/profilebtn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grayprofile"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="305dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssimg"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="220dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/searchbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/goldappointer"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="60dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="410dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="95dp"
+            android:orientation="horizontal"
+            android:id="@+id/TopRatedrecycleid">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="410dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="395dp"
+            android:orientation="horizontal"
+            android:id="@+id/Favoritsrecycleid">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

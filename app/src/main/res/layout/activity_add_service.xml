@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddServiceActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/addservicebb" />
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="21dp"
+            android:layout_height="23dp"
+            android:background="@drawable/backwhitebtn"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="60dp"
+            android:background="@drawable/telllyour"
+            android:layout_gravity="center"
+            android:layout_marginBottom="150dp"/>
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="31dp"
+            android:background="@drawable/servicename"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp" />
+
+        <EditText
+            android:id="@+id/ServiceEditTxt"
+            android:hint="Service Name"
+            android:textSize="15dp"
+            android:textColor="#515050"
+            android:layout_width="180dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp" />
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="31dp"
+            android:background="@drawable/time"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp" />
+
+        <EditText
+            android:id="@+id/TimeEditTxt"
+            android:hint="Time"
+            android:textSize="15dp"
+            android:textColor="#515050"
+            android:layout_width="180dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="31dp"
+            android:background="@drawable/price"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/PriceEditTxt"
+            android:hint="Price"
+            android:textSize="15dp"
+            android:textColor="#515050"
+            android:layout_width="180dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+         />
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="184dp"
+            android:layout_height="33dp"
+            android:background="@drawable/addservicebtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"/>
+
+        <TextView
+            android:layout_width="174sp"
+            android:layout_height="34sp"
+            android:background="@drawable/addservicelogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"
+            />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

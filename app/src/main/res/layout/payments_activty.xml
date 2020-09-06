@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentsActivty">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/aboutbb" >
+          <TextView
+            android:textSize="22sp"
+            android:text="PAYMENTS"
+            android:textColor="#ffff"
+            android:fontFamily="@font/bree_serif"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:layout_width="130sp"
+            android:layout_height="40sp" />
+         </RelativeLayout>
+        <Button
+            android:layout_width="21dp"
+            android:layout_height="23dp"
+            android:background="@drawable/backwhitebtn"
+            android:id="@+id/whiteback"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="25dp"/>
+        <ImageView
+            android:layout_width="231dp"
+            android:layout_height="125dp"
+            android:background="@drawable/pymntpho"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="90dp"/>
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="105dp"
+            android:background="@drawable/pymntxt"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="60dp"/>
+        <Button
+            android:layout_width="236dp"
+            android:layout_height="47dp"
+            android:background="@drawable/addcreditbtn"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="90dp"/>
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profilebtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="305dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssimg"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="220dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/searchbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/appbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="60dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessProfileDetails">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="190dp"
+            android:background="#000000"
+            />
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="40dp"
+            android:background="@drawable/barberboard"
+            android:layout_marginTop="190dp"/>
+        <Button
+            android:id="@+id/SCHEDULEbtn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="10dp"
+            android:background="#0E0D0D"
+            android:text="SCHEDULE"
+            android:fontFamily="@font/acme"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/SERVICESbtn"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="95dp"
+            android:background="#0E0D0D"
+            android:text="SERVICES"
+            android:fontFamily="@font/acme"
+            android:textColor="#ffffff"/>
+
+
+        <Button
+            android:id="@+id/DETAILSbtn"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="198dp"
+            android:background="#0E0D0D"
+            android:text="DETAILS"
+            android:fontFamily="@font/acme"
+            android:textColor="#ffffff"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/PRODUCTSbtn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="240dp"
+            android:background="#0E0D0D"
+            android:text="PRODUCTS"
+            android:fontFamily="@font/acme"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/HAIRCUTSbtn"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="325dp"
+            android:background="#0E0D0D"
+            android:text="HAIRCUTS"
+            android:fontFamily="@font/acme"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/degoldline"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="@drawable/goldline"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="167dp"
+            android:transitionName="goldtransition"/>
+        <Button
+            android:id="@+id/camBtn"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:background="@drawable/camsim"
+            android:layout_marginLeft="365dp"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="21dp"
+            android:layout_height="23dp"
+            android:background="@drawable/backwhitebtn"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/addServiceBtn"
+            android:background="@drawable/plusbtn"
+            android:layout_marginLeft="367dp"
+            android:layout_marginTop="150dp"/>
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="17dp"
+            android:id="@+id/CustomersBtn1"
+            android:background="@drawable/clients"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="160dp"/>
+        <TextView
+            android:id="@+id/CustomersBtn2"
+            android:layout_width="85dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="158dp"
+            android:text="Customers"
+            android:textColor="#fff"
+            android:fontFamily="@font/bree_serif"/>
+
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="230dp"
+            android:fontFamily="@font/acme"
+            android:hint="   tell your clients about you( license , experince..)" />
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="25dp"
+            android:text="    STAFF MEMBERS"
+            android:textSize="13dp"
+            android:fontFamily="@font/alegreya_sc"
+            android:background="@drawable/grayrect"
+            android:layout_marginTop="293dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/StaffMembersList"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="320dp"
+            android:orientation="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="25dp"
+            android:text="    BUSINESS HOURS"
+            android:textSize="13dp"
+            android:fontFamily="@font/alegreya_sc"
+            android:background="@drawable/grayrect"
+            android:layout_marginTop="400dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/clock"/>
+        <TextView
+            android:text="Sunday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="425dp"
+            android:layout_marginLeft="35dp"/>
+
+        <TextView
+            android:text="Monday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="447dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:text="Tuesday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="469dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:text="Wednesday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="492dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:text="Thursday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:text="Friday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="537dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:text="Saturday"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginTop="558dp"
+            android:layout_marginLeft="35dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/sun"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="435dp"
+            android:layout_marginLeft="330dp"
+            android:text="9:00-19:00"/>
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="455dp"
+            android:layout_marginLeft="330dp"
+            android:text="CLOSED"
+            />
+        <TextView
+            android:id="@+id/tue"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="475dp"
+            android:layout_marginLeft="330dp"
+            android:text="9:00-19:00"/>
+        <TextView
+            android:id="@+id/wed"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="495dp"
+            android:layout_marginLeft="330dp"
+            android:text="9:00-19:00"/>
+        <TextView
+            android:id="@+id/thu"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="330dp"
+            android:text="9:00-19:00"/>
+        <TextView
+            android:id="@+id/fri"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="535dp"
+            android:layout_marginLeft="330dp"
+            android:text="9:00-19:00"/>
+        <TextView
+            android:id="@+id/sat"
+            android:layout_width="80sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="555dp"
+            android:layout_marginLeft="330dp"
+            android:text="CLOSED"/>
+
+
+
+
+
+
+
+
+        
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:id="@+id/profilebtn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grayprofile"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="300dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssim"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="210dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/searchbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="140dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/appbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="50dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

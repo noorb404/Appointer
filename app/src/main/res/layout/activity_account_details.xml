@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountDetailsActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/aboutbb" >
+            <TextView
+                android:textSize="22sp"
+                android:text="ACCOUNT DETAILS"
+                android:textColor="#ffff"
+                android:fontFamily="@font/bree_serif"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"
+                android:layout_width="200sp"
+                android:layout_height="40sp" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profilebtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="305dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssimg"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="220dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/searchbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/appbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="60dp"/>
+
+
+        <Button
+            android:layout_width="21dp"
+            android:layout_height="23dp"
+            android:background="@drawable/backwhitebtn"
+            android:id="@+id/whiteback"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="24dp"
+            android:background="@drawable/accdetigb"
+            android:layout_marginTop="73dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/profiles"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/cusName"
+            android:text="Customer Name"
+            android:textSize="18dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp" 
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="70dp"/>
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="35dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="16dp"
+            android:background="@drawable/email"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/cusEmail"
+            android:text="Email Address"
+            android:textSize="18dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="35dp"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/phone"
+            android:layout_marginTop="285dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/cusPhone"
+            android:text="Phone Number"
+            android:textSize="18dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="70dp"/>
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:layout_marginTop="335dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="24dp"
+            android:background="@drawable/serviestype"
+            android:layout_marginTop="380dp"/>
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="21dp"
+            android:background="@drawable/currentservices"
+            android:layout_marginTop="425dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/men"
+            android:text="men"
+            android:textSize="14dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@drawable/cbor"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="270dp"/>
+
+        <Button
+            android:id="@+id/both"
+            android:text="both"
+            android:textSize="14dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@drawable/cbor"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="170dp"/>
+        <Button
+            android:id="@+id/women"
+            android:text="women"
+            android:textSize="14dp"
+            android:fontFamily="@font/acme"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@drawable/cbor"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="70dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkingHoursActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#000000">
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="30sp"
+            android:textColor="#D6C700"
+            android:fontFamily="@font/acme"
+            android:textSize="25sp"
+            android:text="WORKING HOURS"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="100dp"/>
+        <TextView
+            android:layout_width="320.03dp"
+            android:layout_height="3sp"
+            android:background="@drawable/whoareu"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="35dp"/>
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@drawable/workinghours"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="31dp"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="240dp"
+            android:background="@drawable/days"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/from"/>
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/to"/>
+
+
+        <EditText
+            android:id="@+id/sunfrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="183dp"
+            android:layout_marginLeft="140dp"/>
+        <EditText
+            android:id="@+id/monfrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="140dp"/>
+
+        <EditText
+            android:id="@+id/tuefrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="140dp"/>
+        <EditText
+            android:id="@+id/wedfrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="297dp"
+            android:layout_marginLeft="140dp"/>
+        <EditText
+            android:id="@+id/thufrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="335dp"
+            android:layout_marginLeft="140dp"/>
+        <EditText
+            android:id="@+id/frifrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="373dp"
+            android:layout_marginLeft="140dp"/>
+        <EditText
+            android:id="@+id/satfrom"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="412dp"
+            android:layout_marginLeft="140dp"/>
+
+
+
+        
+        <EditText
+            android:id="@+id/sunto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="183dp"
+            android:layout_marginLeft="250dp"/>
+        <EditText
+            android:id="@+id/monto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="250dp"/>
+
+        <EditText
+            android:id="@+id/tueto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"/>
+        <EditText
+            android:id="@+id/wedto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="297dp"
+            android:layout_marginLeft="250dp"/>
+        <EditText
+            android:id="@+id/thuto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="335dp"
+            android:layout_marginLeft="250dp"/>
+        <EditText
+            android:id="@+id/frito"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="373dp"
+            android:layout_marginLeft="250dp"/>
+        <EditText
+            android:id="@+id/satto"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:background="@drawable/hoursedit"
+            android:layout_marginTop="412dp"
+            android:layout_marginLeft="250dp"/>
+
+
+
+
+
+
+
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/sunclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="183dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/monclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="222dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/tueclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/wedclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="297dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/thuclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/friclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="373dp"
+            android:background="@drawable/closed"/>
+        <Button
+            android:text="CLOSED"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/acme"
+            android:id="@+id/satclosed"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="412dp"
+            android:background="@drawable/closed"/>
+
+        
+        <Button
+            android:id="@+id/savehours"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/savehours"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="174sp"
+            android:layout_height="34sp"
+            android:background="@drawable/blacklogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"
+            />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

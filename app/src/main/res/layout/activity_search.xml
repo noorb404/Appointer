@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SearchActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#000000">
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="120dp"
+            android:background="@drawable/searchbb" />
+        <EditText
+            android:hint="  Where? (city-street or zip code)"
+            android:textColorHint="#8F8F8F"
+            android:fontFamily="@font/acme"
+            android:layout_width="309dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/border"/>
+        <Button
+            android:text="Current Location"
+            android:textSize="8dp"
+            android:textColor="#8f8f8f"
+            android:fontFamily="@font/acme"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="   Results(0)"
+            android:textColor="#D1AC45"
+            android:fontFamily="@font/acme"
+            android:layout_width="412dp"
+            android:layout_height="20dp"
+            android:background="@drawable/resultsbb"
+            android:layout_marginTop="130dp"/>
+
+        <ImageView
+            android:layout_width="412dp"
+            android:layout_height="73dp"
+            android:background="@drawable/bboardd"
+            android:layout_gravity="center"
+            android:layout_marginTop="294dp"/>
+        <Button
+            android:id="@+id/profilebtn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grayprofile"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="305dp"/>
+        <Button
+            android:id="@+id/businessbtn"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:background="@drawable/businesssimg"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="220dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="41dp"
+            android:layout_height="52dp"
+            android:background="@drawable/goldsearch"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"/>
+        <Button
+            android:id="@+id/appBtn"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            android:background="@drawable/appbtn"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="60dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="158dp"
+            android:id="@+id/searchList"
+            android:orientation="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
